@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    height:100%;
+
+    font-family: "Roboto Mono", monospace;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color:pink;
+}
+.container{
+    display:flex ;
+    width:750px;
+}
+.image{
+    width:70%;
+}
+.image img{
+    width:100%;
+    height:100%
+}
+.form-data{
+    margin: 10px;
+    text-align: center;
+}
+.Register-box{
+    padding:20px;
+    width:50% ;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.box{
+    margin: 0;
+    padding: 1em;
+}
+h2{
+    margin-bottom:50px;
+    font-weight: 800;
+}
+.form-data .box{
+  position:relative;
+    margin-bottom:40px;
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid black;
+}
+input[type="text"],input[type="password"]{
+    width:100%;
+    border-bottom: 1px solid black;
+    background-color: pink;
+
+    padding: 30px;
+    border: none;
+    outline: none;
+}
+input[type="text"]:focus span,
+input[type="password"]:focus span{
+    left: 0;
+}
+label{
+    position: absolute;
+    top: 0;
+    left:0;
+}
+button{
+    padding: 7px;
+    background:rgba(0, 0, 0, 0.932);
+    border: 0;
+    text-transform: uppercase;
+    font-family: "Inconsolata";
+    border-radius: 2px;
+    color: lavender;
+}
+button:hover,
+button:focus {
+    background: rgba(206, 206, 206, 0.589);
+    color: black;
+}
